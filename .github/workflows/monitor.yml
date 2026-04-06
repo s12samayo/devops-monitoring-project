@@ -1,17 +1,26 @@
 name: Run Monitoring Script
 
-on: [push]
+
+name: Run Monitoring Script
+
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
-      uses: actions/che`:ckout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    - name: Make script executable
-      run: chmod +x monitor.sh
+      - name: Show files
+        run: ls -la
 
-    - name: Run script
-      run: ./monitor.sh
+      - name: Make script executable
+        run: chmod +x monitor.sh
+
+      - name: Run script
+        run: bash monitor.sh
