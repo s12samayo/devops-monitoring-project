@@ -182,3 +182,7 @@ Aspiring DevOps Engineer with hands-on experience in Linux, Git, automation, and
 
 This project is part of my journey toward becoming a DevOps Engineer, focusing on building real-world skills through practical implementation.
 
+
+## 📸 EC2 Deployment Output
+
+![EC2 Output](./images/ec2-output.png)
