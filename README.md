@@ -186,3 +186,7 @@ This project is part of my journey toward becoming a DevOps Engineer, focusing o
 ## 📸 EC2 Deployment Output
 
 ![EC2 Output](./images/ec2-output.png)
+
+## ⚙️ CI/CD Pipeline (GitHub Actions)
+
+![GitHub Actions](./images/github-action.png)
