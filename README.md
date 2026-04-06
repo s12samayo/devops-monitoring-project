@@ -1,4 +1,4 @@
-# system-monitoring-project
+# devops-monitoring-project
 Linux System Monitoring & Automation Project
 📌 Overview
 
