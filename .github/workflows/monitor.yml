@@ -1,8 +1,5 @@
 name: Run Monitoring Script
 
-
-name: Run Monitoring Script
-
 on:
   push:
     branches:
