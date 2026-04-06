@@ -57,7 +57,7 @@ Ubuntu-based server
 Connected via SSH
 Script executed manually and via scheduled jobs
 🧪 How to Run Locally
-git clone https://github.com/your-username/devops-monitoring-project.git
+git clone https:/s12-samayo/github.com//devops-monitoring-project.git
 cd devops-monitoring-project
 chmod +x monitor.sh
 ./monitor.sh
@@ -92,14 +92,10 @@ Practical experience with Linux system monitoring
 Hands-on use of Git workflows (branching, merging, PRs)
 Understanding CI/CD pipelines using GitHub Actions
 Deploying and managing applications on cloud infrastructure
-📈 Future Improvements
-Add email or Slack alerts
-Integrate with monitoring tools (Prometheus, Grafana)
-Dockerize the application
-Add logging and visualization dashboard
+
 👨‍💻 Author
 
-[Your Name]
+[smart-x]
 
 Aspiring DevOps Engineer with hands-on experience in Linux, Git, automation, and cloud deployment.
 
