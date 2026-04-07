@@ -189,4 +189,4 @@ This project is part of my journey toward becoming a DevOps Engineer, focusing o
 
 ## ⚙️ CI/CD Pipeline (GitHub Actions)
 
-![GitHub Actions](./images/github-action.png)
+![GitHub Actions](images/github-actions.png)
