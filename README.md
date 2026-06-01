@@ -34,8 +34,10 @@ The solution is automated using CI/CD pipelines and scheduled execution, demonst
   * CPU load
   * Memory usage
   * Disk usage
-* ⚠️ Basic alert system for high CPU usage
+* ⚠️ Basic alert system for high CPU or disk usage
+* 👤 Added email/slack alerts
 * 🔁 Automated execution using GitHub Actions
+* 📦 Workflow artifacts save run logs for review
 * ☁️ Deployed on AWS EC2 (Ubuntu server)
 * ⏱️ Optional scheduling using cron jobs
 

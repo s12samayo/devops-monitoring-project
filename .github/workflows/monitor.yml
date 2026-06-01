@@ -4,20 +4,24 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Show files
-        run: ls -la
+      - name: Run monitoring script
+        run: |
+          chmod +x monitor.sh
+          bash monitor.sh
 
-      - name: Make script executable
-        run: chmod +x monitor.sh
-
-      - name: Run script
-        run: bash monitor.sh
+      - name: Upload monitor logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: monitor-logs
+          path: logs/
+          retention-days: 7
+          if-no-files-found: warn
